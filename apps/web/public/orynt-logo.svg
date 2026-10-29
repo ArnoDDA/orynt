@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Orynt symbol</title>
+  <desc id="desc">A circular decision ring with an upward signal pointer from its center.</desc>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="#070907"/>
+  <circle cx="256" cy="256" r="142" fill="none" stroke="#F7FAF4" stroke-width="34"/>
+  <path d="M256 256L400 122" fill="none" stroke="#CAFF4A" stroke-width="40" stroke-linecap="round"/>
+  <circle cx="400" cy="122" r="22" fill="#CAFF4A"/>
+</svg>

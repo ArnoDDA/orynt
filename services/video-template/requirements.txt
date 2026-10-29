@@ -1,0 +1,1 @@
+scenedetect-core[opencv-headless]==0.7.1

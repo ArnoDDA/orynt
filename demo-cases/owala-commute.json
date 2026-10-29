@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "owala-commute",
+  "version": "v1",
+  "title": "出门之前，带上 Owala",
+  "description": "黑色 FreeSip Twist · 15 秒随身出行广告",
+  "product": {
+    "name": "Owala FreeSip Twist",
+    "variant": "18oz / Very, Very Dark",
+    "variantId": "51424408502571",
+    "url": "https://owalalife.sg/zh-hans/products/freesip-twist?variant=51424408502571",
+    "imageUrl": "https://owalalife.sg/cdn/shop/files/18oz_Black_Twist_-_SC.webp?v=1761536398",
+    "facts": ["本轮固定黑色 18oz 款式", "官网描述强调便于放入包中、便携提环和日常出行"],
+    "boundary": "只展示随身出行场景，不演示防漏、保温时长或未经验证的性能。"
+  },
+  "evidenceIds": ["evidence_3b87c109-95bf-456b-8d04-6ba92d33b983", "evidence_b523dd59-5bc0-4c43-846e-510e961a6051"],
+  "market": {
+    "observation": "已采集的同品牌公开文案，把水杯放进城市出行和日常生活的语境。",
+    "decision": "用出门前准备和抵达后的片刻，表现水杯是日常随身物品。画面设计是我们的创意推导。",
+    "boundary": "只有公开广告文案依据，未分析样本视频或取得效果数据；样本不保证来自同一型号，不借用其他型号功能。"
+  },
+  "creative": {
+    "audience": "每天通勤、希望轻装出门的人（本次创意假设）",
+    "question": "比起孤立的影棚产品图，把水杯放进出门准备场景，是否更容易让人理解它的日常用途？",
+    "concept": "从门边的出行装备，到窗边的城市停留；两个场景始终保留同一只黑色水杯。",
+    "look": "自然侧光、深灰黑色产品、暖米色环境、真实材质；克制的电影感产品广告。",
+    "copy": ["Before you head out.", "Make it part of your day.", "Owala FreeSip Twist · Find your everyday."]
+  },
+  "scenes": [
+    {
+      "id": "shot1", "title": "出门前的准备", "timing": "0–3 秒", "duration": 3, "generationDuration": 5,
+      "purpose": "让观众一眼看懂这是随身出行用品，不只是影棚里的水杯。",
+      "description": "门边浅色木质置物台，同款黑色水杯竖直立在帆布包旁；钥匙在远处，晨光掠过瓶身。",
+      "imagePrompt": "Create one photorealistic premium lifestyle advertising still, portrait 9:16. Use the supplied official product photo as the exact identity reference for ONE black Owala FreeSip Twist 18oz Very, Very Dark bottle. Preserve its silhouette, lid, carry loop, black finish, dimensions and existing wordmark. Scene: a warm pale-oak entryway console beside a softly blurred apartment doorway, a natural canvas tote bag placed behind and to the left, a small key set in the distant background. The bottle stands upright in the lower center-right, fully visible, dominant, label facing camera; not placed inside the bag. Soft morning side light from the left, believable contact shadow, tactile materials, restrained premium editorial product photography, 50mm lens feel. Leave the top quarter uncluttered for later typography. No hands, people, drinking, open lid, water effects, extra bottles, generated text, invented logos or infographic. Product and environment must be lit and photographed together, never a pasted product cutout. This scene translates public brand copy about everyday city adventures into an original creative hypothesis, not a recreation or proof of ad performance.",
+      "videoPrompt": "Animate this approved first frame into a photorealistic 5-second portrait product advertising shot. One continuous very slow camera push-in, no more than 4 percent. Keep the exact same black Owala bottle completely still, same lid, loop, silhouette, wordmark and size relationship to the bag. Only soft natural daylight and subtle background parallax. No people, hands, opening, drinking, pouring, liquid, bottle rotation, object substitutions, morphing or added typography. Preserve the entryway scene and realistic contact shadow."
+    },
+    {
+      "id": "shot2", "title": "城市里的短暂停留", "timing": "3–11 秒", "duration": 8, "generationDuration": 10,
+      "purpose": "延续同一产品和出行语境，用环境变化表达日常陪伴。",
+      "description": "同款黑色水杯在窗边浅色桌面，帆布包退到背景，窗外是柔焦城市；近景看清瓶盖、提环与材质。",
+      "imagePrompt": "Create one photorealistic premium lifestyle advertising still, portrait 9:16. Use the supplied official product photo as the exact identity reference for ONE black Owala FreeSip Twist 18oz Very, Very Dark bottle. Match the same bottle silhouette, lid, carry loop, existing wordmark and black finish from the reference without redesign. Scene: a pale-oak table beside a large city window at a quiet cafe, a natural canvas tote softly blurred behind the bottle on the left, distant urban buildings in soft bokeh. Bottle upright in the lower center-right, fully visible, label facing camera, closer framing with detailed matte texture. Warm natural side light from the left, soft realistic contact shadow, cohesive warm beige and charcoal palette, authentic commercial product photography. Reserve the top quarter as quiet negative space for later typography. No hands, people, cup, food, laptop brands, extra bottle, liquid effects, opening, generated text or invented logos. Product must look naturally photographed in the environment, not composited as a floating sticker. This is an original everyday-carry creative hypothesis based on public brand copy, with no performance claim.",
+      "videoPrompt": "Animate this approved first frame into a photorealistic 10-second portrait product advertising shot. One continuous subtle lateral camera drift from left to right with slight background parallax; keep the bottle fully visible and its position nearly fixed in the composition. Preserve the exact black Owala silhouette, unchanged lid and carry loop, wordmark, matte finish and proportions. Bottle remains upright, motionless and physically grounded on the table. Quiet city bokeh through the window and warm consistent natural light. No hands, people, opening, drinking, pouring, liquid, bottle spin, new objects, morphing, cuts or added typography."
+    },
+    {"id": "endcard", "title": "让日常继续", "timing": "11–15 秒", "duration": 4, "purpose": "让观众知道产品叫什么、下一步去哪里。", "description": "延续城市窗边的视频运镜，广告语先出现，产品名与官网入口随后淡入；产品保持在同一个真实生成场景中。", "visualAsset": "shot2Frame", "treatment": "continuing_video_with_local_typography"}
+  ],
+  "simulation": {
+    "label": "模拟投放计划（非真实投放结果）",
+    "channel": "Meta Reels · 9:16",
+    "comparison": "后续可对比影棚产品介绍与出行场景版；当前案例只有一个待验收版本，不构成 A/B 结果。",
+    "metric": "观察前三秒留存与落地页点击；演示不展示虚构转化成绩。"
+  }
+}

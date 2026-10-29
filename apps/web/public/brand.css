@@ -1,0 +1,100 @@
+/* Orynt presentation identity: signal green, ink black, paper white. */
+:root {
+  --brand-lime: #caff4a;
+  --brand-ink: #070907;
+  --brand-paper: #f7faf4;
+  --ink: #101410;
+  --muted: #646b62;
+  --subtle: #838b80;
+  --line: #e2e7dd;
+  --canvas: #f7faf4;
+  --surface: #fff;
+  --accent: #506e08;
+  --accent-wash: #eff8e2;
+}
+body { background: var(--canvas); color: var(--ink); }
+::selection { background: var(--brand-lime); color: var(--brand-ink); }
+.sidebar { background: var(--brand-ink); }
+.logo { color: var(--brand-paper); gap: 9px; }
+.logo-symbol { display:block; width:38px; height:38px; flex:none; }
+.logo-word { font-size:28px; font-weight:700; letter-spacing:-1.4px; }
+.sidebar .logo-dot { color:var(--brand-lime); font-size:24px; letter-spacing:-1px; }
+.sidebar .workspace-selector { color:#eef3e9; border-color:#2b3329; background:#101510; }
+.sidebar .workspace-selector small,.sidebar .profile small,.sidebar .local-indicator { color:#9da79a; }
+.sidebar .workspace-avatar,.sidebar .avatar { color:var(--brand-lime); background:#232b1d; }
+.sidebar .profile .avatar { color:var(--brand-lime); background:#232b1d; }
+.sidebar .profile { color:#f7faf4; border-color:#2b3329; }
+.nav-caption { color:#85917c; }
+.nav-link { color:#bbc4b5; }
+.sidebar .nav-link.active,.sidebar .nav-link.active:hover { background:var(--brand-lime); color:var(--brand-ink); border-color:var(--brand-lime); }
+.nav-link:hover { background:#1b2316; color:var(--brand-paper); }
+.local-indicator i { background:var(--brand-lime); box-shadow:0 0 0 3px #caff4a12; }
+.topbar { background:#ffffffeb; border-color:var(--line); }
+.button { background:var(--brand-lime); color:var(--brand-ink); border-color:var(--brand-lime); box-shadow:0 3px 8px #07090708; }
+.button:hover { background:#bbef3c; border-color:#bbef3c; box-shadow:0 5px 18px #638d001c; }
+.button.secondary { background:#fff; border-color:#dce3d6; color:#293322; }
+.button.secondary:hover { background:#eff8e2; border-color:#b8ce96; }
+.button.lime { background:var(--brand-lime); color:var(--brand-ink); }
+.button[aria-busy=true]::after { border-color:#07090730; border-top-color:var(--brand-ink); }
+button:focus-visible,a:focus-visible,summary:focus-visible { outline-color:#638d00; }
+input:focus,textarea:focus,select:focus { border-color:#8cad4d; outline-color:#8cad4d; box-shadow:0 0 0 4px #caff4a25; }
+input[type=checkbox],input[type=radio],progress { accent-color:var(--accent); }
+.text-button,.source-link,.back-link { color:var(--accent); }
+.maker-kicker,.studio-eyebrow { color:#62704f; }
+.maker-progress>a:hover { background:var(--accent-wash); }
+.maker-progress>a.current { color:#3f5a09; }
+.maker-progress>a.current>span { background:var(--brand-lime); color:var(--brand-ink); border-color:#c1ec72; box-shadow:0 0 0 4px #caff4a25; }
+.maker-progress>a.completed>span { background:#ecf5e2; color:#49632a; border-color:#d7e5c7; }
+.studio-demo-notice { background:#eff5e980; border-color:#dce8cf; color:#63734f; }
+.studio-demo-notice strong { color:#435c2b; }
+.maker-guidance { background:#edf4e4; }
+.maker-guidance h2 { color:#243319; }
+.maker-guidance p { color:#65725a; }
+.studio-eyebrow>span,.walkthrough-concept-label { background:#eff8e2; color:#5b7430; border-color:#d8e7c5; }
+.walkthrough-intro h1>span { color:#4e7205; }
+.walkthrough-start-form { border-color:#dbe6cc; }
+.walkthrough-start-form:focus-within { border-color:#99bb58; box-shadow:0 0 0 4px #caff4a1f; }
+.walkthrough-form-heading>span,.walkthrough-url>.lucide,.walkthrough-other { color:#61783b; }
+.walkthrough-route { border-color:#dce5d3; }
+.walkthrough-route>div>span,.walkthrough-route .lucide { color:#79905a; }
+.walkthrough-product-review .walkthrough-product-visual { background:#edf2e7; border-color:#dfe6d7; }
+.walkthrough-product-review .walkthrough-product-brief { background:#fff; }
+.walkthrough-concept-copy>h2 { color:var(--ink); }
+.walkthrough-scene-copy { background:#f0f6e8; color:#53663d; }
+.walkthrough-board-note,.walkthrough-evidence summary { color:#5e704a; }
+.walkthrough-evidence { border-color:#dde7d3; background:#fff; }
+.walkthrough-evidence blockquote { background:#f6f9f1; border-color:#e3eadb; }
+.demo-entry { background:var(--brand-ink); border-color:var(--brand-ink); }
+.demo-entry h2 { color:var(--brand-paper); }
+.demo-entry p { color:#adb7a4; }
+.demo-entry .maker-kicker { color:var(--brand-lime); }
+.demo-entry>.button,.demo-entry>.button:hover { background:var(--brand-lime); color:var(--brand-ink); }
+.walkthrough-intro>.studio-eyebrow>span { color:#48602a; background:#eff8e2; border-color:#d9e7c8; }
+.direction-card.selected,.direction-card:has(input:checked),.creative-card.selected { border-color:#93b24f; box-shadow:0 0 0 2px #caff4a22; }
+.direction-tag,.plan-basis-label { background:#eff7e5; color:#526c2e; border-color:#dce8cc; }
+.production-rail-shot[aria-pressed=true],.production-rail-final[aria-pressed=true],.script-rail button[aria-pressed=true] { background:#eff7e4; color:#344b19; border-color:#bcd593; }
+.production-rail-shot[aria-pressed=true] strong,.script-rail button[aria-pressed=true] strong { color:#344b19; }
+.production-revise>summary,.production-rail>.text-button { color:#536d30; }
+.pill.green { color:#4b6c28; background:#edf7e3; border-color:#d6e8c5; }
+.mobile-nav .nav-link.active { color:#2c4014; background:#e6f6cd; }
+#toast { background:var(--brand-ink); color:var(--brand-paper); }
+@media(max-width:900px) { .logo-symbol { width:34px; height:34px; } .logo { padding-left:5px; padding-right:5px; } }
+/* Hosted demonstrations lead into the verified replay, with ordinary creation retained locally. */
+.online-demo .workspace-start,
+.online-demo .walkthrough-other { display: none; }
+
+/* English brand statements pair with Chinese guidance throughout the workspace. */
+.workspace-start h2.brand-headline {
+  font-size:clamp(30px,3vw,46px);
+  line-height:1.1;
+  letter-spacing:-1.5px;
+  font-weight:650;
+  margin:16px 0 24px;
+  text-wrap:balance;
+}
+.maker-progress>a>div,.maker-progress>.locked>div { min-width:0; overflow-wrap:break-word; }
+.maker-heading h1,.direction-heading h1,.opportunity-heading h1,.page-heading h1 { text-wrap:balance; }
+@media(max-width:680px) {
+  .workspace-start h2.brand-headline { font-size:32px; letter-spacing:-1px; }
+  .maker-progress>a,.maker-progress>.locked { font-size:10px; }
+}

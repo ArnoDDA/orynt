@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Northline Coffee Trail Blend packaging</title>
+  <desc id="desc">A forest green coffee bag with a cream label, coral sun, bold Northline wordmark, and whole coffee beans on a light studio surface.</desc>
+  <rect width="900" height="1200" fill="#e9e3d4"/>
+  <ellipse cx="455" cy="1020" rx="330" ry="70" fill="#b9af9b" opacity=".45"/>
+  <path d="M245 180h410l55 820H190z" fill="#163f36"/>
+  <path d="M245 180h410l-26-80H271z" fill="#27584b"/>
+  <path d="M271 100h358" stroke="#0d2f29" stroke-width="18"/>
+  <rect x="260" y="330" width="380" height="460" rx="8" fill="#f4f0e5"/>
+  <circle cx="450" cy="455" r="86" fill="#ef6a54"/>
+  <path d="M330 540 442 415l60 60 68-74 102 139" fill="none" stroke="#163f36" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M318 568h264" stroke="#163f36" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="650" text-anchor="middle" fill="#163f36" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="0">NORTHLINE</text>
+  <text x="450" y="702" text-anchor="middle" fill="#163f36" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" letter-spacing="8">TRAIL BLEND</text>
+  <text x="450" y="748" text-anchor="middle" fill="#6c796d" font-family="Arial, Helvetica, sans-serif" font-size="20">COCOA · CITRUS · CARAMEL</text>
+  <g fill="#573d2b">
+    <ellipse cx="165" cy="1025" rx="38" ry="24" transform="rotate(-24 165 1025)"/>
+    <ellipse cx="710" cy="1060" rx="40" ry="25" transform="rotate(18 710 1060)"/>
+    <ellipse cx="755" cy="990" rx="34" ry="22" transform="rotate(-12 755 990)"/>
+    <ellipse cx="120" cy="1090" rx="35" ry="22" transform="rotate(22 120 1090)"/>
+  </g>
+  <g fill="none" stroke="#c9a681" stroke-width="5" stroke-linecap="round">
+    <path d="M138 1035q28-22 54-20"/><path d="M678 1058q31-16 61 5"/><path d="M727 997q27-19 55-10"/><path d="M93 1080q25 6 51 28"/>
+  </g>
+</svg>

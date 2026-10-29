@@ -1,0 +1,11 @@
+import { LocalProductImporter } from '../apps/api/src/product-importer.js';
+import { mkdir, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+const url=process.argv[2];
+if(!url)throw new Error('Supply one public product URL.');
+const result=await new LocalProductImporter().collect({url});
+const dir=fileURLToPath(new URL('../.local/material-check/',import.meta.url));
+await mkdir(dir,{recursive:true,mode:0o700});
+const path=`${dir}${Date.now()}.json`;
+await writeFile(path,JSON.stringify(result),{mode:0o600,flag:'wx'});
+console.log(JSON.stringify({path,product:result.fields.product?.value,images:result.images.map(im=>({source:im.sourceType,variant:im.variantName,status:im.identityStatus,bytes:Buffer.from(im.base64,'base64').length})),variants:result.variants?.length,videos:result.videos?.length,limitations:result.limitations}));

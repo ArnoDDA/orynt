@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Northline Coffee logo</title>
+  <desc id="desc">Forest green Northline Coffee wordmark with a coral rising sun and a simple mountain line.</desc>
+  <rect width="1200" height="600" fill="#f4f0e5"/>
+  <circle cx="254" cy="244" r="108" fill="#ef6a54"/>
+  <path d="M92 346 245 183l83 83 83-92 153 172" fill="none" stroke="#163f36" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M88 380h480" stroke="#163f36" stroke-width="20" stroke-linecap="round"/>
+  <text x="622" y="285" fill="#163f36" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" letter-spacing="0">NORTHLINE</text>
+  <text x="628" y="363" fill="#163f36" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" letter-spacing="12">COFFEE</text>
+</svg>

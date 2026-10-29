@@ -1,0 +1,23 @@
+{
+  "name": "orynt-ai",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "packageManager": "pnpm@10.30.3",
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "preview": "node scripts/preview.mjs",
+    "dev": "node scripts/preview.mjs",
+    "start": "node scripts/preview.mjs",
+    "api": "node apps/api/src/server.js",
+    "check:claude": "node scripts/check-claude.mjs",
+    "prepare:demo": "node scripts/prepare-demo-baseline.mjs",
+    "test": "node --test packages/domain/test/*.test.js packages/provider-contracts/test/*.test.js apps/web/test/*.test.js apps/api/test/*.test.js supabase/test/*.test.js"
+  },
+  "devDependencies": {
+    "@youmind-ai/cli": "^0.0.7",
+    "esbuild": "0.28.2"
+  }
+}

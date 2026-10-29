@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light"><title>Sign in · Orynt</title>
+  <link rel="icon" type="image/svg+xml" href="/orynt-logo.svg">
+  <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+  <main class="login-shell">
+    <section class="brand-panel" aria-label="Orynt 创意工作台">
+      <a class="brand" href="/login" aria-label="Orynt"><img src="/orynt-logo.svg" alt="" width="44" height="44"><span>orynt<span class="brand-dot">.</span></span></a>
+      <div class="brand-story"><span class="eyebrow"><i></i> FROM INSIGHT TO IMPACT</span><h1 class="brand-headline" lang="en">Turn insight<br>into <span>impact.</span></h1><p>从产品网址出发，把市场洞察变成<br>值得测试的广告创意。</p>
+        <div class="creative-art" aria-hidden="true"><div class="art-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="signal-line"></div><div class="signal-tip"></div><span class="art-label">A CLEARER DIRECTION.</span><span class="art-coordinate">01 — CREATE WHAT'S NEXT</span></div>
+      </div>
+      <footer class="brand-footer"><span>Orynt · Creative intelligence</span><span lang="en">Discover / Create / Learn</span></footer>
+    </section>
+    <section class="form-panel" aria-labelledby="login-title">
+      <span class="access-label">ORYNT WORKSPACE <span>体验版</span></span>
+      <div class="form-content"><span class="form-kicker">GOOD IDEAS START HERE</span><h2 id="login-title" lang="en">Welcome to Orynt.</h2><p class="form-description">登录你的创意工作台，开始下一次探索。</p>
+        <form method="post" action="/auth/login">
+          <div class="field"><label for="username">账号</label><input id="username" name="username" autocomplete="username" placeholder="输入体验账号" required maxlength="64" autofocus></div>
+          <div class="field"><label for="password">密码</label><div class="password-field"><input id="password" name="password" type="password" autocomplete="current-password" placeholder="输入访问密码" required maxlength="256"><button class="password-toggle" type="button" aria-label="显示密码" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
+          <p class="form-error" role="alert" hidden></p>
+          <button class="submit" type="submit"><span>进入工作台</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+        </form>
+        <p class="access-help"><span class="lock" aria-hidden="true">↳</span> 使用邀请人提供的账号和密码访问</p>
+      </div>
+      <footer class="form-footer"><span lang="en">Good ideas. Clear direction.</span><span>© Orynt</span></footer>
+    </section>
+  </main>
+  <script src="/login.js" defer></script>
+</body>
+</html>
